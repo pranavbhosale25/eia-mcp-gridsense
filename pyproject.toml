@@ -1,5 +1,5 @@
 [project]
-name = "eia-api-gridsense"
+name = "eia-mcp-gridsense"
 version = "0.1.0"
 description = "MCP server exposing US electricity grid data (fuel mix, demand, retail prices, CO2 emissions) from the EIA API"
 readme = "README.md"
@@ -12,10 +12,10 @@ dependencies = [
 ]
 
 [project.urls]
-Repository = "https://github.com/pranavbhosale25/eia-api-gridsense"
+Repository = "https://github.com/pranavbhosale25/eia-mcp-gridsense"
 
 [project.scripts]
-eia-api-gridsense = "server:main"
+eia-mcp-gridsense = "server:main"
 
 [build-system]
 requires = ["hatchling"]

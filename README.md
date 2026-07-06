@@ -1,4 +1,4 @@
-# eia-api-gridsense
+# eia-mcp-gridsense
 
 An MCP server exposing US electricity grid data from the [EIA API](https://www.eia.gov/opendata/):
 
@@ -22,9 +22,9 @@ EIA_API_KEY=your-key-here
 ```json
 {
   "mcpServers": {
-    "eia-api-gridsense": {
+    "eia-mcp-gridsense": {
       "command": "uvx",
-      "args": ["eia-api-gridsense"],
+      "args": ["eia-mcp-gridsense"],
       "env": {
         "EIA_API_KEY": "your-key-here"
       }
@@ -33,4 +33,4 @@ EIA_API_KEY=your-key-here
 }
 ```
 
-<!-- mcp-name: io.github.pranavbhosale25/eia-api-gridsense -->
+<!-- mcp-name: io.github.pranavbhosale25/eia-mcp-gridsense -->
